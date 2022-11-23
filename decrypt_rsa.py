@@ -73,7 +73,7 @@ def modelisation():
         #Fin du calcul (=message déchiffré)
         temp_calcul = fin - debut
         if MESSAGE!=m_decrypte:#en cas d'erreur
-            print("[ERREUR] n : " + str(n)+",  p: "+str(p)+", q: "+str(q), ", e: "+str(e)+", d: "+str(cle_priv), ", message décrypté: "+ str(m_decrypte) + ", message crypté: "+str(m_crypte))
+            print("[ERREUR] n")
         else:
             abs.append(n)#ajoute en abscisse le nombre de chiffre de n
             temps.append(float("{:.5f}".format(temp_calcul)))#ATTENTION=>les temps sont en s
